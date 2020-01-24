@@ -1,0 +1,31 @@
+{
+  "name": "git-checkout-tool",
+  "version": "1.0.6",
+  "description": "tool that allows you to switch branches in your repository quickly and easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "gct"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamespeach02/git-checkout-tool.git"
+  },
+  "keywords": [],
+  "author": "James Peach",
+  "license": "ISC",
+  "bin": {
+    "git-checkout-tool": "cli.js",
+    "gct": "cli.js"
+  },
+  "bugs": {
+    "url": "https://github.com/jamespeach02/git-checkout-tool/issues"
+  },
+  "homepage": "https://github.com/jamespeach02/git-checkout-tool#readme",
+  "dependencies": {
+    "git-branch": "^2.0.1",
+    "git-emoji-commit": "^1.15.0",
+    "list-git-branches": "^1.0.0",
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {}
+}
